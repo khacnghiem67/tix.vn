@@ -1,0 +1,29 @@
+$text-body: black;
+$text-secondary: rgb(108, 117, 146);
+$color-primary: #007bff;
+$color-success: #28a745;
+$color-info: #17a2b8;
+$color-warning: #ffc107;
+$color-danger: #dc3545;
+$color-secondary: #6c757d;
+$color-dark: #343a40;
+$color-light: #f8f9fa;
+@mixin set_display($name) {
+    display: $name;
+}
+
+@mixin set_icon($width, $left:'auto', $right:'auto', $top:50%) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    left: $left;
+    width: $width;
+    cursor: pointer;
+}
+
+@mixin set_limitText($number) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $number;
+    overflow: hidden;
+}

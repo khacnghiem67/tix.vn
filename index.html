@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Tix VN</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Start nav -->
+
+        <nav class="navbar">
+            <a href="#" class="navbar__brand">
+                <img class="navbar__brand-img" src="./img/Icon/web-logo.png" alt="logo" />
+            </a>
+
+            <ul class="navbar__nav">
+                <li class="navbar__nav-item">
+                    <a href="#" class="item-link">Lịch chiếu</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="#" class="item-link">Cụm rạp</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="#" class="item-link">Tin tức</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="#" class="item-link">Ứng dụng</a>
+                </li>
+            </ul>
+
+            <div class="navbar__right">
+                <div class="navbar__right-user">
+                    <a href="#" class="user__link">
+                        <img class="user__link-img" src="./img/Icon/avatar.png" alt="user" />
+                        <span class="user__link-text">Đăng Nhập</span>
+                    </a>
+                </div>
+                <div class="navbar__right-location">
+                    <div class="location">
+                        <img class="location__img" src="./img/Icon/location-header.png" alt="location" />
+                        <span class="location__text">Hồ Chí Minh</span>
+
+                        <ul class="location__list scrollbar">
+                            <li class="location__list-item">Đà Nẵng</li>
+                            <li class="location__list-item">Hội An</li>
+                            <li class="location__list-item">Quảng Ninh</li>
+                            <li class="location__list-item">Tây Nguyên</li>
+                            <li class="location__list-item">Mông Cổ</li>
+                            <li class="location__list-item">Hải Dương</li>
+                            <li class="location__list-item">Chi Lăng</li>
+                            <li class="location__list-item">Đống đa</li>
+                            <li class="location__list-item">Vĩnh Phúc</li>
+                            <li class="location__list-item">Quảng Tây</li>
+                            <li class="location__list-item">Tây Ninh</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Hà Nội</li>
+                            <li class="location__list-item">Vĩnh Phúc</li>
+                            <li class="location__list-item">Quảng Tây</li>
+                            <li class="location__list-item">Tây Ninh</li>
+                            <li class="location__list-item">Vĩnh Phúc</li>
+                            <li class="location__list-item">Quảng Tây</li>
+                            <li class="location__list-item">Tây Ninh</li>
+                            <li class="location__list-item">Vĩnh Phúc</li>
+                            <li class="location__list-item">Quảng Tây</li>
+                            <li class="location__list-item">Tây Ninh</li>
+                        </ul>
+                    </div>
+                    <img class="item__img" src="./img/Icon/dropdown-icon.png" alt="" class="location-dropdown" />
+                </div>
+            </div>
+            <div class="navbar__toggle">
+                <img class="navbar__toggle-img" src="./img/Icon/menu-options.png" alt="">
+            </div>
+        </nav>
+
+        <!-- End nav -->
+
+        <!-- ******************************** -->
+
+        <!-- Start Carousel -->
+
+        <div class="carousel">
+            <div class="carousel__inner-item">
+                <a href="#" class="item-link">
+                    <img class="item-link__film" src="./img/SlideImage/lua-deu-gap-lua-dao-16105107337344.jpg" alt="" />
+                    <img class="item-link__play" src="./img/Icon/play-video.png" alt="" />
+                    <div class="item-link__shadow"></div>
+                </a>
+                <img class="carousel__move-back" src="./img/Icon/back-session.png" alt="back" />
+                <img class="carousel__move-next" src="./img/Icon/next-session.png" alt="next" />
+                <div class="item__circle-list">
+                    <i class="fas fa-circle circle-list__item"></i><i class="fas fa-circle circle-list__item"></i><i class="fas fa-circle circle-list__item"></i><i class="fas fa-circle circle-list__item"></i><i class="fas fa-circle circle-list__item"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- End Carousel -->
+
+        <!-- ******************************** -->
+
+        <!-- Start Wrapper Content -->
+
+        <div class="wrapper-main">
+            <div class="wrapper-main__searchInfo">
+                <ul class="searchInfo__nav">
+                    <li class="searchInfo__nav-item nav__item-film">
+                        <span>Phim</span>
+                        <img class="item__img" class="item__img" src="./img/Icon/dropdown-icon.png" alt="" />
+                        <ul class="film-list">
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+                            <li class="film-list__item">Gái Già Lắm Chiêu V - Những cuộc đời vương giả</li>
+
+
+                        </ul>
+                    </li>
+                    <li class="searchInfo__nav-item">
+                        <span>Rạp</span>
+                        <img class="item__img" src="./img/Icon/dropdown-icon.png" alt="" />
+                        <div class="item__sub nav__item-theater">
+                            <span>Vui lòng chọn phim</span>
+                        </div>
+                    </li>
+                    <li class="searchInfo__nav-item">
+                        <span>Ngày xem</span>
+                        <img class="item__img" src="./img/Icon/dropdown-icon.png" alt="" />
+                        <div class="item__sub nav__item-date">
+                            <span>Vui lòng chọn phim và rạp</span>
+                        </div>
+                    </li>
+                    <li class="searchInfo__nav-item">
+                        <span>Suất chiếu</span>
+                        <img class="item__img" src="./img/Icon/dropdown-icon.png" alt="" />
+                        <div class="item__sub nav__item-slot">
+                            <span>Vui lòng chọn phim,rạp và ngày xem</span>
+                        </div>
+                    </li>
+                    <li class="searchInfo__nav-item nav__item-btn">
+                        <button class="btn">MUA VÉ NGAY</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="wrapper-main__content">
+                <div class="content__header">
+                    <span class="content__header-text isFilming">Đang Chiếu</span>
+                    <span class="content__header-text">Sắp Chiếu</span>
+                </div>
+
+                <div class="content__box">
+                    <div class="content__box-cards">
+                        <div class="cards__item">
+                            <a href="#" class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/tom-jerry-16127706651597_215x318.png" alt="" />
+                                <span class="badges-green">P</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Tom & Jerry</p>
+                                <p class="link__timer">100 phút</p>
+
+
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png" class="link__playImg" alt="" />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png" alt="" />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png" alt="" />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png" alt="" />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cards__item">
+                            <a href="#" class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/tazza-than-bip-jack-chot-tazza-one-eyed-jack-c13-16127716280582_215x318.png" alt="" />
+                                <span class="badges-red">C16</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Ối Trời Ơi: Chuyến Phiêu Lưu Đầy 'Thú' Vị</p>
+                                <p class="link__timer">100 phút</p>
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png " class="link__playImg" alt=" " />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png " alt=" " />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cards__item">
+                            <a href="# " class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/tay-xa-thu-the-marksman-c16-16111970241171_215x318.png " alt=" " />
+                                <span class="badges-green">P</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Tay Xạ Thủ</p>
+                                <p class="link__timer">100 phút</p>
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png " class="link__playImg" alt=" " />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png " alt=" " />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cards__item">
+                            <a href="# " class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/sieu-trom-duong-pho-16139791273302_215x318.png " alt=" " />
+                                <span class="badges-red">C16</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Siêu Trộm Đường Phố</p>
+                                <p class="link__timer">100 phút</p>
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png " class="link__playImg" alt=" " />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png " alt=" " />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cards__item">
+                            <a href="# " class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/nam-sinh-so-11-the-child-who-would-not-come-c18-16111996672572_215x318.png " alt=" " />
+                                <span class="badges-red">C16</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Nam Sinh Số 1</p>
+                                <p class="link__timer">100 phút</p>
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png " class="link__playImg" alt=" " />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png " alt=" " />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cards__item">
+                            <a href="# " class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/lua-deu-gap-lua-dao-the-con-heartist-c16-16082739589858_215x318.png " alt=" " />
+                                <span class="badges-red">C16</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Lừa Đểu Gặp Lừa Đảo</p>
+                                <p class="link__timer">100 phút</p>
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png " class="link__playImg" alt=" " />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png " alt=" " />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cards__item">
+                            <a href="# " class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/gai-gia-lam-chieu-v-nhung-cuoc-doi-vuong-gia-16141605727831_215x318.jpg " alt=" " />
+                                <span class="badges-red">C16</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Gái Già Lắm Chiêu V - Những Cuộc Đời Vương Giả</p>
+                                <p class="link__timer">100 phút</p>
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png " class="link__playImg" alt=" " />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png " alt=" " />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cards__item">
+                            <a href="# " class="cards__item-link">
+                                <img class="link__filmImg" src="./img/FilmImage/ainbo-nu-chien-binh-amazon-ainbo-spirit-of-the-amazon-p-16127703376114_215x318.png " alt=" " />
+                                <span class="badges-red">C16</span>
+                                <p class="link__title-name" style="-webkit-box-orient: vertical">Raya and the Last Dragon</p>
+                                <p class="link__timer">100 phút</p>
+                                <button class="link__btn btn">MUA VÉ</button>
+                                <img src="./img/Icon/play-video.png " class="link__playImg" alt=" " />
+                                <div class="link__banner">
+                                    <span class="link__banner-point">7.3</span>
+                                    <div class="point__icon">
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.png " alt=" " />
+                                        <img class="point__icon-img" src="./img/Icon/star1.2.png " alt=" " />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <img class="icon__back" src="./img/Icon/back-session.png " alt="back " />
+                    <img class="icon__next" src="./img/Icon/next-session.png " alt="next " />
+
+                </div>
+
+                <div class="seperate-block">
+                </div>
+
+                <div class="content__filmLocation">
+                    <ul class="content__filmLocation-icon scrollbar">
+                        <li class="icon__item icon--active">
+                            <img src="./img/TheaterImage/7b078639bd8fdb09dd83652d207c7b90.png " alt=" " />
+                        </li>
+                        <li class="icon__item">
+                            <img src="./img/TheaterImage/9b240f96a233bb43203ee514a21a6004.png " alt=" " />
+                        </li>
+                        <li class="icon__item">
+                            <img src="./img/TheaterImage/9ff07a03371c4a09260309faa32caa55.jpg " alt=" " />
+                        </li>
+                        <li class="icon__item">
+                            <img src="./img/TheaterImage/404b8c4b80d77732e7426cdb7e24be20.png " alt=" " />
+                        </li>
+                        <li class="icon__item">
+                            <img src="./img/TheaterImage/1721cfa98768f300c03792e25ceb0191.png " alt=" " />
+                        </li>
+                        <li class="icon__item">
+                            <img src="./img/TheaterImage/f32670fd0eb083c9c4c804f0f3a252ed.png " alt=" " />
+                        </li>
+                    </ul>
+                    <div>
+                        <div class="content__filmLocation-theater scrollbar">
+                            <div class="theater__card theater--active">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-bitexco-16105952137769.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Bitexco</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-pham-hung-16105959230642.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Vincom Thảo Điền</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-3-2-16105957596860.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Vincome 3/2</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-le-van-viet-16105962051265.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Phạm Hùng</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-quang-trung-16105960645760.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Bitexco</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-thao-dien-16105955634183.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Vincom Quang Trung</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-thao-dien-16105955634183.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Vincom Quang Trung</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-thao-dien-16105955634183.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Vincom Quang Trung</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-thao-dien-16105955634183.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Vincom Quang Trung</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+                            <div class="theater__card">
+                                <img class="theater__card-img" src="./img/LocationImg/bhd-star-vincom-thao-dien-16105955634183.png " alt=" " />
+                                <div class="theater__card-text">
+                                    <p class="text__company"><span>BHD Star</span> - Vincom Quang Trung</p>
+                                    <p class="text__address" style="-webkit-box-orient: vertical">
+                                        L3-Bitexco Icon 68,2 Hải Triều ,Hồ Chí Minh
+                                    </p>
+                                    <a class="text__detail">[chi tiết]</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__filmLocation-listFilm scrollbar">
+                        <div class="listFilm__card">
+                            <div class="listFilm__card-header">
+                                <img class="header__img" src="./img/FilmImage/Small/gai-gia-lam-chieu-v-nhung-cuoc-doi-vuong-gia-16141605727831_60x60.jpg " alt=" " />
+                                <div class="header__content">
+                                    <p class="header__content-name">
+                                        <span class="badges-red">C20</span> Gái Già Lắm Chiêu V - Những Cuộc Đời Vương Giả
+                                    </p>
+                                    <p class="header__content-info">
+                                        100 phút - TIX 7.6 - IMDb 0
+                                    </p>
+                                </div>
+                            </div>
+                            <h4 class="listFilm__card-title">2D Digital</h4>
+                            <ul class="listFilm__card-timeMovie">
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                            </ul>
+                        </div>
+
+                        <div class="listFilm__card">
+                            <div class="listFilm__card-header">
+                                <img class="header__img" src="./img/FilmImage/Small/tom-jerry-16127706651597_60x60.png " alt=" " />
+                                <div class="header__content">
+                                    <p class="header__content-name">
+                                        <span class="badges-green"> P </span> Tom & Jerry
+                                    </p>
+                                    <p class="header__content-info">
+                                        100 phút - TIX 7.6 - IMDb 0
+                                    </p>
+                                </div>
+                            </div>
+                            <h4 class="listFilm__card-title">2D Digital</h4>
+                            <ul class="listFilm__card-timeMovie">
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                            </ul>
+                        </div>
+
+                        <div class="listFilm__card">
+                            <div class="listFilm__card-header">
+                                <img class="header__img" src="./img/FilmImage/Small/bo-gia-16144973777370_60x60.png " alt=" " />
+                                <div class="header__content">
+                                    <p class="header__content-name">
+                                        <span class="badges-red"> C16 </span> Bố Già
+                                    </p>
+                                    <p class="header__content-info">
+                                        100 phút - TIX 7.6 - IMDb 0
+                                    </p>
+                                </div>
+                            </div>
+                            <h4 class="listFilm__card-title">2D Digital</h4>
+                            <ul class="listFilm__card-timeMovie">
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                                <li class="timeMovie__item"><span>21:15</span> ~ 22:55</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="seperate-block">
+                </div>
+            </div>
+        </div>
+
+        <!-- End Wrapper Content -->
+
+        <!-- ************************************************************************************************ -->
+
+        <!-- Start Newspapers -->
+
+        <div class="newspapers">
+            <div class="newspapers__categories">
+                <p class="newspapers__categories-item item-active">Điện Ảnh 24h</p>
+                <p class="newspapers__categories-item item-unactive">Review</p>
+                <p class="newspapers__categories-item item-unactive">Khuyến mãi</p>
+            </div>
+
+            <div class="newspapers__main">
+                <div class="newspapers__main-card">
+                    <a href="# " class="card__link">
+                        <img class="card__link-img" src="./img/NewspaperImg/khai-truong-rap-xin-gia-ngon-chuan-xi-tai-sai-gon-16111317082644.jpg " alt=" " />
+                        <p class="card__link-text">
+                            Khai trương rạp xịn giá ngon,chuẩn xì-tai Sài Gòn
+                        </p>
+                    </a>
+                    <p class="card__text-content" style="-webkit-box-orient: vertical">
+                        Cư dân nơi khác đang sắp “gato nổ mắt” với dân Sài Thành khi sắp tới đây thành phố HCM sẽ chào đón một rạp chiếu phim mang phong cách Artistic Urban Lifestyle đầu tiên tại Việt Nam!
+                    </p>
+
+                    <div class="card__icon">
+                        <div class="card__icon-like icon-social">
+                            <img src="./img/Icon/like.png " alt=" " />
+                            <span>2</span>
+                        </div>
+                        <a href="# " class="card__icon-comment icon-social">
+                            <img src="./img/Icon/comment.png " alt=" " />
+                            <span>0</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="newspapers__main-card">
+                    <a href="# " class="card__link">
+                        <img class="card__link-img" src="./img/NewspaperImg/boc-tem-to-hop-giai-tri-moi-toanh-cua-gioi-ha-thanh-16056938333773.jpg " alt=" " />
+                        <p class="card__link-text">
+                            "Bóc tem " tổ hợp giải trí mới toanh của giới Hà Thành
+                        </p>
+                    </a>
+                    <p class="card__text-content">
+                        Vào đúng ngày Nhà giáo Việt Nam 20/11, khu vui chơi sống ảo độc-lạ-chill nhất từ trước đến giờ sẽ chính thức khai trương tại 360 Giải Phóng!
+                    </p>
+                    <div class="card__icon">
+                        <div class="card__icon-like icon-social">
+                            <img src="./img/Icon/like.png " alt=" " />
+                            <span>2</span>
+                        </div>
+                        <a href="# " class="card__icon-comment icon-social">
+                            <img src="./img/Icon/comment.png " alt=" " />
+                            <span>0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="newspapers__sub">
+                <div class="newspapers__sub-card">
+                    <a href="# " class="card__link">
+                        <img class="card__link-img" src="./img/NewspaperImg/tiec-trang-mau-chinh-thuc-can-moc-100-ty-chi-sau-2-tuan-cong-chieu-16043752411629.png " alt=" " />
+                        <p class="card__link-text" style="-webkit-box-orient: vertical">
+                            Tiệc Trăng Máu chính thức cán mốc 100 tỷ chỉ sau 2 tuần công chiếu
+                        </p>
+                    </a>
+                    <p class="card__text-content" style="-webkit-box-orient: vertical">
+                        Sau 2 tuần ra mắt, Tiệc Trăng Máu chính thức gia nhập câu lạc bộ phim điện ảnh đạt 100 tỷ đồng doanh thu phòng vé. Dàn ngôi sao “bạc tỷ” của phim cũng lần đầu tiên hội tụ đầy đủ trong một khung hình để ăn mừng thành tích ấn tượng của tác phẩm.
+                    </p>
+                    <div class="card__interact">
+                        <div class="card__interact-like icon-social">
+                            <img src="./img/Icon/like.png " alt=" " />
+                            <span>2</span>
+                        </div>
+                        <a href="# " class="card__interact-comment icon-social">
+                            <img src="./img/Icon/comment.png " alt=" " />
+                            <span>0</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newspapers__sub-card">
+                    <a href="# " class="card__link">
+                        <img class="card__link-img" src="./img/NewspaperImg/ngo-thanh-van-chinh-thuc-khoi-dong-cuoc-thi-thiet-ke-trang-phuc-cho-sieu-anh-hung-dau-tien-cua-viet-nam-vinaman-16041597587981.jpg " alt=" " />
+                        <p class="card__link-text" style="-webkit-box-orient: vertical">
+                            NGÔ THANH VÂN CHÍNH THỨC KHỞI ĐỘNG CUỘC THI THIẾT KẾ TRANG PHỤC CHO SIÊU ANH HÙNG ĐẦU TIÊN CỦA VIỆT NAM – VINAMAN
+                        </p>
+                    </a>
+                    <p class="card__text-content" style="-webkit-box-orient: vertical">
+                        Chiều tối ngày 30-10-2020, Ngô Thanh Vân và Studio68 đã chính thức phát động cuộc thi thiết kế trang phục cho siêu anh hùng VINAMAN với tổng giá trị giải thưởng lên đến 60 triệu đồng.
+                    </p>
+                    <div class="card__interact">
+                        <div class="card__interact-like icon-social">
+                            <img src="./img/Icon/like.png " alt=" " />
+                            <span>2</span>
+                        </div>
+                        <a href="# " class="card__interact-comment icon-social">
+                            <img src="./img/Icon/comment.png " alt=" " />
+                            <span>0</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="newspapers__list">
+                    <div class="newspapers__list-item">
+                        <a href="# " class="item__link">
+                            <img class="item__link-img" src="./img/NewspaperImg/da-n-my-nhan-trong-the-gio-i-die-n-a-nh-cu-a-qua-i-kie-t-christopher-nolan-15970503793246.png " alt=" " />
+                            <p class="item__link-text" style="-webkit-box-orient: vertical">
+                                [ANTEBELLUM] - 4 lý do không thể bỏ lỡ siêu phẩm kinh dị Antebellum: Bẫy Thực Tại Kinh Hoàng
+                            </p>
+                        </a>
+                    </div>
+                    <div class="newspapers__list-item">
+                        <a href="# " class="item__link">
+                            <img class="item__link-img" src="./img/NewspaperImg/truy-cung-giet-tan-cuoc-tai-ngo-cua-hai-ong-hoang-phong-ve-xu-han-15966122262210.png " alt=" " />
+                            <p class="item__link-text" style="-webkit-box-orient: vertical">
+                                [ANTEBELLUM] - 4 lý do không thể bỏ lỡ siêu phẩm kinh dị Antebellum: Bẫy Thực Tại Kinh Hoàng
+                            </p>
+                        </a>
+                    </div>
+                    <div class="newspapers__list-item">
+                        <a href="# " class="item__link">
+                            <img class="item__link-img" src="./img/NewspaperImg/da-n-my-nhan-trong-the-gio-i-die-n-a-nh-cu-a-qua-i-kie-t-christopher-nolan-15970503793246.png " alt=" " />
+                            <p class="item__link-text" style="-webkit-box-orient: vertical">
+                                [ANTEBELLUM] - 4 lý do không thể bỏ lỡ siêu phẩm kinh dị Antebellum: Bẫy Thực Tại Kinh Hoàng
+                            </p>
+                        </a>
+                    </div>
+                    <div class="newspapers__list-item">
+                        <a href="# " class="item__link">
+                            <img class="item__link-img" src="./img/NewspaperImg/truy-cung-giet-tan-cuoc-tai-ngo-cua-hai-ong-hoang-phong-ve-xu-han-15966122262210.png " alt=" " />
+                            <p class="item__link-text" style="-webkit-box-orient: vertical">
+                                [ANTEBELLUM] - 4 lý do không thể bỏ lỡ siêu phẩm kinh dị Antebellum: Bẫy Thực Tại Kinh Hoàng
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn newspapers__btn">Xem thêm</button>
+        </div>
+
+        <!-- End Newspapers -->
+
+        <!-- **************************************************************** -->
+
+        <!-- Start SlideScreen -->
+
+        <div class="slideScreen">
+            <div class="slideScreen__content">
+                <div class="slideScreen__content-text">
+                    <h2 class="text__title">
+                        Ứng dụng tiện lợi dành cho người yêu điện ảnh
+                    </h2>
+                    <p class="text__content">
+                        Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp và đổi quà hấp dẫn.
+                    </p>
+
+                    <button class="btn text__button">App miễn phí - Tải về ngay</button>
+                    <p class="text__link">
+                        TIX có hải phiên bản
+                        <a class="text__link-content" href="# ">IOS</a> &
+                        <a class="text__link-content" href="# ">Android</a>
+                    </p>
+                </div>
+
+                <div class="slideScreen__phone">
+                    <img class="slideScreen__phone-img" src="./img/Other/mobile.png " alt=" " />
+                    <div class="slideScreen__phone-slide">
+                        <img class="slide__img" src="./img/Other/slide9.jpg " alt=" " />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End SlideScreen -->
+
+        <!-- **************************************************************** -->
+
+        <!-- Start Footer -->
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper-header">
+                    <div class="header__tix">
+                        <h6>TIX</h6>
+                        <div class="header__tix-content">
+                            <div class="content__left">
+                                <a href="# ">FAQ</a>
+                                <a href="# ">Brand Guidelines</a>
+                            </div>
+                            <div class="content__right">
+                                <a class="content__right-link" href="# ">Thỏa thuận sử dụng</a>
+                                <a class="content__right-link" href="# ">Chính sách bảo mật</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header__cooperate ">
+                        <h6>ĐỐI TÁC</h6>
+                        <div class="header__cooperate-link ">
+                            <div class="link__row ">
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/cgv.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/bhd.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/galaxycine.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/cinestar.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/megags.png " alt=" " />
+                                </a>
+                            </div>
+
+                            <div class="link__row ">
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/bt.jpg " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/dongdacinema.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/TOUCH.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/cnx.jpg " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/STARLIGHT.png " alt=" " />
+                                </a>
+                            </div>
+
+                            <div class="link__row ">
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/dcine.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/zalopay_icon.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/payoo.jpg " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/VCB.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/AGRIBANK.png " alt=" " />
+                                </a>
+                            </div>
+
+                            <div class="link__row ">
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/VIETTINBANK.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/IVB.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/123go.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/laban.png " alt=" " />
+                                </a>
+                                <a href="# " class="link__item ">
+                                    <img class="link__item-img " src="./img/TheaterImage/404b8c4b80d77732e7426cdb7e24be20.png " alt=" " />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header__system ">
+                        <div class="header__system-mobile ">
+                            <h6>MOBILE APP</h6>
+                            <div class="mobile__icon ">
+                                <a class="mobile__icon-link " href=" ">
+                                    <img class="link__img " src="./img/Icon/apple-logo.png " alt=" " />
+                                </a>
+                                <a class="mobile__icon-link " href=" ">
+                                    <img class="link__img " src="./img/Icon/android-logo.png " alt=" " />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__system-social ">
+                            <h6>SOCIAL</h6>
+                            <div class="social__icon ">
+                                <a class="social__icon-link " href="# ">
+                                    <img class="link__img " src="./img/Icon/facebook-logo.png " alt=" " />
+                                </a>
+                                <a class="social__icon-link " href="# ">
+                                    <img class="link__img " src="./img/Icon/zalo-logo.png " alt=" " />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__wrapper-last ">
+                    <div class="last__content ">
+                        <img class="last__content-brand " src="./img/Brand/zion-logo.jpg " alt=" " />
+                        <div class="last__content-text ">
+                            <h5 class="text__title ">
+                                TIX – SẢN PHẨM CỦA CÔNG TY CỔ PHẦN ZION
+                            </h5>
+                            <p>
+                                Địa chỉ: Z06 Đường số 13, Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh, Việt Nam.
+                            </p>
+                            <p>
+                                Giấy chứng nhận đăng ký kinh doanh số: 0101659783,<br />đăng ký thay đổi lần thứ 30, ngày 22 tháng 01 năm 2020 do Sở kế hoạch và đầu tư Thành phố Hồ Chí Minh cấp.
+                            </p>
+                            <p>Số Điện Thoại (Hotline): 1900 545 436</p>
+                            <p>
+                                Email: <a class="text__link " href="# "> support@tix.vn</a>
+                            </p>
+                        </div>
+                    </div>
+                    <a href="# " class="last__img ">
+                        <img class="last__img-link " src="./img/Brand/d1e6bd560daa9e20131ea8a0f62e87f8.png " alt=" " />
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- End Footer -->
+    </div>
+</body>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+@import 'resFooter';
+@import 'resNav';
+@import 'resNewspaper';
+@import 'resSlideScreen';
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    /* Start Carousel*/
+    .carousel .carousel__inner-item .item__circle-list {
+        top: 75%;
+    }
+    /* End Carousel*/
+    /**/
+    .wrapper-main .wrapper-main__searchInfo {
+        top: 60px;
+    }
+    .wrapper-main .wrapper-main__content .content__header {
+        margin-top: 70px;
+        margin-bottom: 10px;
+        .content__header-text.isFilming {
+            font-size: 1.2rem;
+        }
+        .content__header-text {
+            font-size: 1rem;
+        }
+        .content__header-text:last-child:hover {
+            font-size: 1.2rem;
+        }
+    }
+    .wrapper-main .wrapper-main__searchInfo .searchInfo__nav {
+        padding: 0 3px;
+        border-radius: none;
+        .searchInfo__nav-item {
+            font-size: 0.65rem;
+            padding: 12px 6px;
+            .item__img {
+                width: 8px;
+                height: 5px;
+            }
+        }
+        .btn {
+            padding: 7px 4px;
+            font-size: 0.6rem;
+        }
+    }
+    .wrapper-main .wrapper-main__content .content__filmLocation {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-main .wrapper-main__content .content__filmLocation .content__filmLocation-icon {
+        display: flex;
+    }
+    .wrapper-main .wrapper-main__content .content__filmLocation .content__filmLocation-theater {
+        height: 400px;
+        overflow-y: scroll;
+    }
+    .wrapper-main .wrapper-main__content .content__filmLocation .content__filmLocation-listFilm {
+        height: 300px;
+        overflow-y: scroll;
+    }
+    .wrapper-main .wrapper-main__content .content__filmLocation .content__filmLocation-icon .icon__item img {
+        width: 48px;
+    }
+    .wrapper-main .wrapper-main__content .content__filmLocation .content__filmLocation-listFilm .listFilm__card .listFilm__card-timeMovie {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .wrapper-main .wrapper-main__content .content__filmLocation .content__filmLocation-listFilm .listFilm__card .listFilm__card-timeMovie .timeMovie__item {
+        width: 100px;
+        padding-top: 10px;
+        font-size: 0.8rem;
+        span {
+            font-size: 1rem;
+        }
+    }
+    .wrapper-main .wrapper-main__content .content__box {
+        padding: 0 4px;
+        margin-bottom: 18%;
+        .content__box-cards {
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 5px;
+            grid-column-gap: 4px;
+            margin-bottom: 13%;
+            .cards__item .cards__item-link {
+                .link__filmImg {
+                    margin-bottom: 3px;
+                }
+                .link__title-name {
+                    font-size: 0.8rem;
+                    min-height: 1.8rem;
+                    margin-bottom: 4px;
+                }
+                .link__timer {
+                    font-size: 0.65rem;
+                }
+                .badges-red,
+                .badges-green {
+                    width: 25px;
+                    height: 19px;
+                    font-size: 0.7rem;
+                    top: 5px;
+                    left: 6px;
+                }
+                .link__banner {
+                    right: 6px;
+                    top: 4px;
+                    width: 27px;
+                    height: 26px;
+                    font-size: 0.7rem;
+                    .point__icon {
+                        display: none;
+                    }
+                }
+                .link__btn {
+                    padding: 10px 10px;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        .icon__next {
+            top: 106%;
+            right: 34%;
+            width: 30px;
+        }
+        .icon__back {
+            top: 106%;
+            left: 34%;
+            width: 30px;
+        }
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width:601px) and (max-width: 768px) {
+    .wrapper-main .wrapper-main__content .content__box {
+        padding: 0 6px;
+        .content__box-cards {
+            grid-row-gap: 6px;
+            grid-column-gap: 6px;
+            margin-bottom: 13%;
+            .cards__item .cards__item-link {
+                .link__title-name {
+                    min-height: 2.4rem;
+                    margin-bottom: 1px;
+                }
+                .badges-red,
+                .badges-green {
+                    width: 30px;
+                    height: 25px;
+                    font-size: 0.75rem;
+                    top: 7px;
+                    left: 6px;
+                }
+                .link__banner {
+                    width: 37px;
+                    height: 35px;
+                    right: 4px;
+                    .link__banner-point {
+                        font-size: 0.9rem;
+                    }
+                    .point__icon {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .icon__next {
+            top: 108%;
+            right: 38%;
+            width: 50px;
+        }
+        .icon__back {
+            top: 108%;
+            left: 38%;
+            width: 50px;
+        }
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 769px) and (max-width:993px) {
+    .wrapper-main .wrapper-main__content .content__box {
+        .content__box-cards {
+            grid-row-gap: 8px;
+            grid-column-gap: 7px;
+            margin-bottom: 13%;
+            .cards__item .cards__item-link {
+                .link__title-name {
+                    min-height: 2.4rem;
+                }
+                .badges-red,
+                .badges-green {
+                    top: 9px;
+                }
+                .link__banner {
+                    width: 48px;
+                    height: 43px;
+                    .link__banner-point {
+                        font-size: 0.95rem;
+                    }
+                    .point__icon {
+                        .point__icon-img {
+                            width: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        .icon__next {
+            top: 107%;
+            right: 38%;
+            width: 50px;
+        }
+        .icon__back {
+            top: 107%;
+            left: 38%;
+            width: 50px;
+        }
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 993px) and (max-width:1199px) {
+    .wrapper-main .wrapper-main__content .content__box {
+        .content__box-cards {
+            grid-row-gap: 8px;
+            grid-column-gap: 7px;
+            margin-bottom: 13%;
+            .cards__item .cards__item-link {
+                .link__title-name {
+                    min-height: 2.4rem;
+                }
+                .badges-red,
+                .badges-green {
+                    top: 9px;
+                }
+            }
+        }
+        .icon__next {
+            top: 107%;
+            right: 38%;
+            width: 50px;
+        }
+        .icon__back {
+            top: 107%;
+            left: 38%;
+            width: 50px;
+        }
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */

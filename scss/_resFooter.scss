@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+    .footer .footer__wrapper h6,
+    .footer .footer__wrapper .footer__wrapper-header .header__tix .header__tix-content .content__left,
+    .footer .footer__wrapper .footer__wrapper-header .header__cooperate {
+        display: none;
+    }
+    .footer .footer__wrapper .footer__wrapper-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 19px;
+        .header__tix .header__tix-content .content__right {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            .content__right-link {
+                font-size: 0.9rem;
+            }
+            .content__right-link+.content__right-link {
+                margin-top: 0;
+                margin-left: 10px;
+            }
+        }
+        .header__system {
+            flex-direction: column;
+            .header__system-mobile {
+                margin-right: 0px;
+                text-align: center;
+            }
+            .header__system-mobile .mobile__icon .mobile__icon-link .link__img {
+                width: 30px;
+            }
+            .header__system-social .social__icon {
+                margin-top: 18px;
+            }
+        }
+    }
+    .footer .footer__wrapper .footer__wrapper-last {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0 40px 0;
+        text-align: center;
+        .last__content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .last__content-brand {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}

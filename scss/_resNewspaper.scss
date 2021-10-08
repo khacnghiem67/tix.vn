@@ -1,0 +1,55 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .newspapers .newspapers__main {
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+        padding: 0 10px;
+        .newspapers__main-card .card__link-img {
+            margin-bottom: 10px;
+        }
+    }
+    .newspapers .newspapers__sub {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+        padding: 0 10px;
+        .newspapers__sub-card .card__link-text {
+            font-size: 0.9rem;
+        }
+        .newspapers__list-item .item__link-text {
+            font-size: 1rem;
+        }
+    }
+    .newspapers .newspapers__btn {
+        margin: 30px auto 60px auto;
+        padding: 10px 22px;
+    }
+    .newspapers .newspapers__sub .newspapers__sub-card .card__interact,
+    .newspapers .newspapers__main .newspapers__main-card .card__icon {
+        bottom: 0;
+    }
+    .newspapers .newspapers__main .newspapers__main-card .card__link-text,
+    .newspapers .newspapers__sub .newspapers__sub-card .card__link-text {
+        margin-bottom: 8px;
+    }
+    .newspapers .newspapers__main .newspapers__main-card .card__text-content,
+    .newspapers .newspapers__sub .newspapers__sub-card .card__text-content {
+        margin-bottom: 13px;
+        font-size: 0.82rem;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
